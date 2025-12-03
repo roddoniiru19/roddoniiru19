@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Artifacts · Rod Neil Mauricio</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="site-wrapper">
+    <header>
+        <div class="site-title">Rod Neil Mauricio</div>
+        <div class="site-tagline">
+            Computer Systems Technology Student · Web & Mobile Developer · IT Support
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="artifacts.html" class="active">Artifacts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="section-heading">Artifacts & Reflections</h1>
+        <p class="section-subtitle">
+            These artifacts demonstrate different technical and employability skills from my CST program.
+        </p>
+
+        <!-- Artifact 1: GeoGrafik -->
+        <section class="card">
+            <h2>Artifact #1 – GeoGrafik Public Art Mapping App</h2>
+            <p class="card-tagline">Full-stack web application for exploring public artwork and events.</p>
+            <img src="images/geografik.png"
+                 alt="GeoGrafik Screenshot"
+                 class="project-img">
+
+            <h3>Skills Demonstrated</h3>
+            <ul>
+                <li>Front-end development with <strong>React</strong> and <strong>TypeScript</strong>.</li>
+                <li>Designing data models for users, artworks, locations, and events.</li>
+                <li>Consuming REST APIs and handling asynchronous data loading.</li>
+                <li>Building responsive layouts and clear navigation for end-users.</li>
+            </ul>
+
+            <h3>Reflection</h3>
+            <p>
+                Working on GeoGrafik showed me how many small decisions are involved in building a full-stack
+                application. I had to think not only about how to fetch and display data, but also how users
+                would actually move through the site and discover artworks and events. Designing the entities
+                for artwork, location, and event helped me understand how important data modeling is for
+                keeping a project maintainable.
+            </p>
+            <p>
+                This project strengthened my practical skills in React, TypeScript, and REST APIs, and it also
+                highlighted employability skills such as communication and adaptability. I frequently adjusted
+                the UI based on feedback from instructors and classmates, which felt similar to responding to
+                stakeholder feedback in a real workplace. In future projects, I plan to extend this app with
+                features like user authentication and map-based search so I can continue improving my skills in
+                full-stack development and user experience design.
+            </p>
+            <p>
+                I collaborated closely with my partner <strong>Riley</strong>. Since we were not using GitHub or
+                Bitbucket, we communicated clearly and coordinate our work manually. This experience improved
+                my teamwork, planning, and problem-solving skills. It also showed me how important version control 
+                can be in larger projects, and it encouraged me to adopt Git-based workflows in future development.
+            </p>
+        </section>
+
+        <!-- Artifact 2: Grant Application System -->
+        <section class="card">
+            <h2>Artifact #2 – Grant Application System (Team Project)</h2>
+            <p class="card-tagline">
+                Full-stack grant management system using React + TypeScript (front-end) and FastAPI with Python (back-end).
+            </p>
+            
+            <img src="images/grant-system.png"
+               alt="Grant Application System Screenshot"
+               class="project-img">
+            
+            <h3>Skills Demonstrated</h3>
+            <ul>
+                <li>Building a single-page front-end using <strong>React</strong> and <strong>TypeScript</strong>.</li>
+                <li>Connecting the UI to a <strong>FastAPI</strong> back-end written in <strong>Python</strong>.</li>
+                <li>Designing and implementing reusable form components with validation for agencies, applicants, and grants.</li>
+                <li>Thinking about data relationships and how changes to one record affect related records.</li>
+                <li>Collaborating in a team using <strong>Bitbucket</strong>, branches, and pull requests.</li>
+            </ul>
+                
+            <h3>Reflection</h3>
+            <p>
+                This project helped me experience what it is like to work on a full-stack application with a clear
+                separation between front-end and back-end. On the front-end, using React and TypeScript made me think
+                carefully about component structure and data types. On the back-end, FastAPI and Python showed me how
+                to design clean REST endpoints that the UI can depend on.
+            </p>
+            <p>
+                Working in a team also strengthened my employability skills. We used Bitbucket for version control, which
+                meant creating branches, opening pull requests, and reviewing each other's changes before merging. This
+                taught me how to communicate design decisions, give constructive feedback, and keep our codebase
+                consistent. In future projects, I want to continue building on this experience by adding more automated
+                tests and documentation to make collaboration even smoother.
+            </p>
+        </section>
+
+
+        <!-- Artifact 3: TaskTracker Android App -->
+        <section class="card">
+            <h2>Artifact #3 – TaskTracker Android App</h2>
+            <p class="card-tagline">
+                A general-purpose Android task manager with reminders, photos, and optional location logging.
+            </p>
+            
+            <img src="images/tasktracker1.png"
+                 alt="TaskTracker Screenshot"
+                 class="project-img">
+            
+            <h3>Skills Demonstrated</h3>
+            <ul>
+                <li>Working with <strong>SQLite</strong> to store task data locally on the device.</li>
+                <li>Implementing scheduled reminders using <strong>AlarmManager</strong> and <strong>BroadcastReceiver</strong>.</li>
+                <li>Integrating the device camera to attach completion photos.</li>
+                <li>Using <strong>LocationManager</strong> to record where tasks are completed.</li>
+                <li>Designing a simple, user-friendly interface for everyday personal task tracking.</li>
+            </ul>
+            
+            <h3>Reflection</h3>
+            <p>
+                TaskTracker was a great opportunity for me to build an app that can be used by anyone, not just workers or 
+                technicians but also students and everyday users who want a better way to organize their tasks. I learned
+                how different Android components work together, including local storage, camera integration, and scheduled
+                notifications.
+            </p>
+            
+            <p>
+                One of the biggest lessons was managing runtime permissions and handling edge cases, such as what happens
+                when a user denies location or camera access. This helped me understand how to build reliable mobile apps
+                that respond gracefully to user choices. Going forward, I want to expand TaskTracker with cloud syncing
+                and user accounts so tasks can be accessed across multiple devices.
+            </p>
+        </section>
+        <p class="meta">
+            Author: Rod Neil Mauricio · Last updated: December 2025
+        </p>
+    </main>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

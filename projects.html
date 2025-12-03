@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Projects · Rod Neil Mauricio</title>
+    <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+<div class="site-wrapper">
+    <header>
+        <div class="site-title">Rod Neil Mauricio</div>
+        <div class="site-tagline">
+            Computer Systems Technology Student · Web & Mobile Developer · IT Support
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="artifacts.html">Artifacts</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1 class="section-heading">Projects</h1>
+        <p class="section-subtitle">
+            Selected projects that show my experience with full-stack web development, team collaboration,
+            and Android app development.
+        </p>
+
+        <section class="card">
+            <h2>GeoGrafik – Public Art Mapping Web App</h2>
+            <p class="card-tagline">
+                Full-stack web app that maps public artwork and events by location.
+            </p>
+            <img src="images/geografik.png"
+                 alt="GeoGrafik Screenshot"
+                 class="project-img">
+            <p>
+                GeoGrafik is a React-based web application that lets users explore public artwork on an
+                interactive map. Artworks can be browsed by city, location, or event, and each entries
+                includes details such as title, artist, category, and description. Locations are stored in a
+                database and linked to artworks and events.
+            </p>
+            <p>
+                This project was developed collaboratively with my partner, <strong>Riley</strong>, and we shared responsibilities
+                in UI design, data modeling, and API integration.
+            </p>
+            <ul>
+                <li>Built the front-end using <strong>React</strong> and <strong>TypeScript</strong>.</li>
+                <li>Designed entities such as <em>User</em>, <em>Artwork</em>, <em>Location</em>, and <em>Event</em> with proper relationships.</li>
+                <li>Worked with REST APIs and database queries to fetch and update records.</li>
+                <li>Focused on clean UI, clear navigation, and responsive layout.</li>
+            </ul>
+            <div class="badge-row">
+                <span class="badge">React</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">REST API</span>
+                <span class="badge">SQLite</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Grant Application System (Team Project)</h2>
+            <p class="card-tagline">
+                Full-stack system with a React + TypeScript front-end and FastAPI (Python) back-end
+                for managing agencies, applicants, and grant agreements.
+            </p>
+            <img src="images/grant-system.png"
+               alt="Grant Application System Screenshot"
+               class="project-img">
+            <p>
+                In this team project, we built a grant management system where staff can create and manage
+                <strong>agency records, applicant profiles, and grant agreements</strong>. The front-end is a
+                single-page application built with <strong>React</strong> and <strong>TypeScript</strong>, and it
+                communicates with a <strong>FastAPI</strong> back-end written in <strong>Python</strong>.
+            </p>
+            <p>
+                Our team used <strong>Bitbucket</strong> for version control, branches, and pull requests so we
+                could review each other's work and keep the main branch stable.
+            </p>
+            <ul>
+                <li>Built React + TypeScript pages and forms for agencies, applicants, and grants.</li>
+                <li>Integrated the UI with FastAPI endpoints to load, create, and update data.</li>
+                <li>Implemented client-side and server-side validation to protect data integrity.</li>
+                <li>Debugged update/delete flows to avoid accidentally breaking related records.</li>
+                <li>Collaborated with teammates using Bitbucket, code reviews, and shared task ownership.</li>
+            </ul>
+            <div class="badge-row">
+                <span class="badge">React</span>
+                <span class="badge">TypeScript</span>
+                <span class="badge">FastAPI</span>
+                <span class="badge">Python</span>
+                <span class="badge">Bitbucket</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>TaskTracker – Android App</h2>
+            <p class="card-tagline">
+                A simple mobile app for anyone who wants to track tasks with reminders, photos, and location logging.
+            </p>
+            
+            <img src="images/tasktracker1.png"
+            alt="TaskTracker Screenshot"
+            class="project-img">
+            
+            <p>
+                TaskTracker is an Android application designed for anyone who wants an easy and organized way to manage
+                personal tasks. Users can add tasks, receive scheduled reminders, attach a photo when a task is completed,
+                and optionally capture the location of completion. The goal of this app is to make everyday task
+                management convenient and intuitive.
+            </p>
+            
+            <ul>
+                <li>Stores all tasks locally using <strong>SQLite</strong>.</li>
+                <li>Uses <strong>AlarmManager</strong> and <strong>BroadcastReceiver</strong> for reminder notifications.</li>
+                <li>Allows users to attach a completion photo using the Android camera API.</li>
+                <li>Captures optional GPS location via <strong>LocationManager</strong>.</li>
+                <li>Designed for general users, such as students, workers, or anyone wanting better task organization.</li>
+            </ul>
+            
+            <div class="badge-row">
+                <span class="badge">Android</span>
+                <span class="badge">SQLite</span>
+                <span class="badge">Camera API</span>
+                <span class="badge">Notifications</span>
+                <span class="badge">Location</span>
+            </div>
+        </section>
+
+        <p class="meta">
+            Author: Rod Neil Mauricio · Last updated: December 2025
+        </p>
+    </main>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
