@@ -36,9 +36,12 @@
             <p class="card-tagline">
                 Full-stack web app that maps public artwork and events by location.
             </p>
-            <img src="images/geografik.png"
-                 alt="GeoGrafik Screenshot"
-                 class="project-img">
+            <a href="images/geografik.png" target="_blank" class="project-img-link">
+                <img src="images/geografik.png"
+                     alt="GeoGrafik Screenshot"
+                     class="project-img">
+            </a>
+
             <p>
                 GeoGrafik is a React-based web application that lets users explore public artwork on an
                 interactive map. Artworks can be browsed by city, location, or event, and each entries
@@ -69,9 +72,12 @@
                 Full-stack system with a React + TypeScript front-end and FastAPI (Python) back-end
                 for managing agencies, applicants, and grant agreements.
             </p>
-            <img src="images/grant-system.png"
-               alt="Grant Application System Screenshot"
-               class="project-img">
+            <a href="images/grant-system.png" target="_blank" class="project-img-link">
+                <img src="images/grant-system.png"
+                     alt="Grant Application System Screenshot"
+                     class="project-img">
+            </a>
+
             <p>
                 In this team project, we built a grant management system where staff can create and manage
                 <strong>agency records, applicant profiles, and grant agreements</strong>. The front-end is a
@@ -104,9 +110,12 @@
                 A simple mobile app for anyone who wants to track tasks with reminders, photos, and location logging.
             </p>
             
-            <img src="images/tasktracker1.png"
-            alt="TaskTracker Screenshot"
-            class="project-img">
+            <a href="images/tasktracker1.png" target="_blank" class="project-img-link">
+                <img src="images/tasktracker1.png"
+                     alt="TaskTracker Screenshot"
+                     class="project-img">
+            </a>
+
             
             <p>
                 TaskTracker is an Android application designed for anyone who wants an easy and organized way to manage
@@ -137,8 +146,26 @@
         </p>
     </main>
 </div>
+    <button type="button" class="back-to-top" aria-label="Back to top">↑</button>
+    <script>
+      const backToTop = document.querySelector('.back-to-top');
+      if (backToTop) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 300) {
+            backToTop.classList.add('show');
+          } else {
+            backToTop.classList.remove('show');
+          }
+        });
+    
+        backToTop.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+    </script>
 </body>
 </html>
+
 
 
 
